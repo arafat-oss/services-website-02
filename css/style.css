@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../image/cute\ photo.jpg);
+   background-repeat: no-repeat;
+  background-color:;color:black;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.menu-bar{
+    
+   text-align: center;
+   background-color: #4BE113    ;
+   color:#fff;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style:none;
+    color:#fff;
+    decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.menu-bar ul li{
+    width:120px;
+    margin:10px;
+    padding:15px;
+    box-sizing: border-box;
+    
+   }
+   
+
+.menu-bar ul li a{
+    text-decoration: none;
+    colorL:#41D10C ;
+}
+
+.active, .menu-bar ul li:hover
+{
+   background-color: white ;
+    border-radius: 8px;
+  color: #FDFEFE;
+    
+}
+.search{
+    text-align:right;
+    width:300px;
+    padding: 10px;
+    margin:5px;
+    color:black;
+    size: 100px;
+    
+}
+
+
+.sub-menu-1{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+     display: block;
+     position: absolute;
+     background-color: #41D10C  ;
+     border-radius: 8px;
+     margin-bottom: 5px;
+     margin-left: -5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin:10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child:hover{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dtted #fff;
+    background: transparent;
+    border-radius: 8px;
+    text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li  a:hover{
+     color:red;
+}
+.sub-menu-3{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: #41D10C  ;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-left: -5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+   display: block;
+   margin:5px;
+
+}
+.ma{
+    width:100;
+    position: center;
+   
+    padding-top: 0;
+   padding-bottom: 110px;
+   padding-left: 80px;
+   padding-right: 400px;
+    margin-left: 40px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    display: inline-block;
+    background-image: url(../image/638952.jpg);
+    text-align: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-box: center;
+    position: absolute;
+    background-size: cover;
+    color:black;
+    border-radius: ;
+    border-color: #41D10C;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    text-decoration: none;
+    padding-top: 50px;
+    padding-left: 10px;
+ 
+}
+.focus{
+    width:400px;
+    text-align: left;
+    padding-left: 350px;
+    padding-top: 80px;
+    padding-bottom: 2px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.focus h3 span{
+    color:#3FC10F;
+}
